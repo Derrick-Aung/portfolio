@@ -69,7 +69,7 @@ export default function Home() {
                         </li>
                         <li>
                             <h6>
-                                + Professional tutor for 3 highschool students
+                                + Professional Tutor for 3 highschool students
                             </h6>
                         </li>
                         <li>
