@@ -22,9 +22,9 @@ export default function Skills() {
                     skillImg="javascript.png"
                     skillName="JavaScript"
                 />
-                <SkillComponent skillImg="HTML.png" skillName="HTML" />
-                <SkillComponent skillImg="CSS.png" skillName="CSS" />
-                <SkillComponent skillImg="Python.png" skillName="Python" />
+                <SkillComponent skillImg="html.png" skillName="HTML" />
+                <SkillComponent skillImg="css.png" skillName="CSS" />
+                <SkillComponent skillImg="python.png" skillName="Python" />
                 <SkillComponent skillImg="java.png" skillName="Java" />
             </div>
             <div className={styles.container}>

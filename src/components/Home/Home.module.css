@@ -96,3 +96,18 @@ p {
         grid-template-columns: 0.4fr 0.6fr;
     }
 }
+
+@media (min-width: 1024px) {
+    .homeSecondary {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .education ul {
+        border-left: 5px solid #04ca83;
+        border-right: initial;
+        padding-inline-start: 1rem;
+        padding-inline-end: 0;
+        text-align: left;
+    }
+}
