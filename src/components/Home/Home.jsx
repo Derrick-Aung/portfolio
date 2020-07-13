@@ -4,6 +4,7 @@ import { Tag } from "../";
 import cx from "classnames";
 
 export default function Home() {
+    // Home Page
     return (
         <div className={styles.padBottom}>
             <div className={styles.homeContainer}>
