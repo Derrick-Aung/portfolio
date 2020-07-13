@@ -1,0 +1,32 @@
+.portfolioTitle {
+    font-family: ObjectSansHeavy;
+    font-size: 2rem;
+}
+
+.portfolioIntro {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 0.5rem solid #04ca83;
+}
+
+.container {
+    padding: 1.5rem;
+    background-color: #161618;
+    font-family: ObjectSans;
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1366px) {
+    .container {
+        width: 40%;
+    }
+}

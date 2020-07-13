@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "ObjectSansHeavy";
+    src: local("ObjectSansHeavy"),
+        url(../../fonts/ObjectSans-Heavy.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "ObjectSans";
+    src: local("ObjectSans"),
+        url(../../fonts/ObjectSans-Regular.otf) format("opentype");
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "ObjectSans";
+    font-size: 2rem;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #161618;
+    font-family: ObjectSans;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.homeContainer a:hover {
+    color: #04ca83;
+}
+
+.homePortrait {
+    width: 100%;
+}
+
+.container {
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.textLink {
+    color: #04ca83;
+}
+
+.padBottom {
+    margin-bottom: 4rem;
+}
+
+.homeSecondary {
+    background-color: #161618;
+}
+
+.homeSecondary ul {
+    list-style-type: none;
+    -webkit-padding-start: 1rem;
+    padding-inline-start: 1rem;
+    list-style-type: none;
+    border-left: 5px solid #04ca83;
+}
+
+.homeSecondary ul a {
+    color: #04ca83;
+    text-decoration: underline;
+}
+
+.homeTitle {
+    font-family: "ObjectSansHeavy";
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.education {
+    text-align: right;
+}
+
+.education ul {
+    border-left: initial;
+    padding-inline-start: 0;
+    padding-inline-end: 1rem;
+    border-right: 5px solid #04ca83;
+}
+
+@media (min-width: 768px) {
+    .homeContainer {
+        display: grid;
+        grid-template-columns: 0.4fr 0.6fr;
+    }
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "ObjectSans";
+    src: local("ObjectSans"),
+        url(../../fonts/ObjectSans-Regular.otf) format("opentype");
+}
+
+.tag {
+    font-size: 1.2rem;
+    background: #04ca83;
+    color: #00452c;
+    border-radius: 1.5rem;
+    padding: 5px 15px;
+    margin: 4px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5px;
+    font-family: "ObjectSans", "sans-serif";
+}

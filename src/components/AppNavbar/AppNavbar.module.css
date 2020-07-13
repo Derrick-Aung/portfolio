@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "ObjectSans";
+    src: local("ObjectSans"),
+        url(../../fonts/ObjectSans-Regular.otf) format("opentype");
+}
+
+.appNavbar {
+    background-color: #1f1f20 !important;
+    border-bottom: solid 1px #444444;
+    font-family: ObjectSans;
+    letter-spacing: 0.75px;
+    font-weight: 700;
+    color: #fff;
+    z-index: 1;
+}
+
+.collapseBar {
+    text-align: center;
+}
+
+#name {
+    display: none;
+}
+
+@media (min-width: 450px) {
+    #name {
+        display: inline-block;
+    }
+}

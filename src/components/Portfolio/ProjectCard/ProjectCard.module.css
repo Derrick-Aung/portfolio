@@ -1,0 +1,30 @@
+.projectContainer {
+    border: solid 1px #424242;
+    background-color: #424242;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.projectContainer p {
+    margin-top: 1.5rem;
+}
+.projectContainer h3 {
+    margin-bottom: 1.5rem;
+}
+
+.projectContainer img {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    margin-bottom: 1rem;
+}
+
+.projectContainer h3 {
+    font-family: ObjectSansHeavy;
+}
+
+.projectSubContainer {
+    padding: 0 1.5rem 0 1.5rem;
+}
