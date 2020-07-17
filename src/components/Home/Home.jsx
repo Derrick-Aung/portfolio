@@ -36,7 +36,7 @@ export default function Home() {
                         detail, whatever works for you
                     </div>
                 </div>
-                <div>
+                <div className={styles.portraitContainer}>
                     <img
                         className={styles.homePortrait}
                         src={process.env.PUBLIC_URL + "/images/portrait.png"}

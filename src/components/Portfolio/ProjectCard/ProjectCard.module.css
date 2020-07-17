@@ -28,3 +28,8 @@
 .projectSubContainer {
     padding: 0 1.5rem 0 1.5rem;
 }
+
+.projectContainer a:hover {
+    color: initial;
+    text-decoration: none;
+}

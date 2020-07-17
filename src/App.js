@@ -24,7 +24,7 @@ function App() {
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/portfolio" component={Portfolio} />
                     <Route exact path="/skills" component={Skills} />
-                    <Route exact path="/documents" component={Documents} />
+                    {/* <Route exact path="/documents" component={Documents} /> */}
                     <Redirect to="/home" />
                 </Switch>
                 <Footer />
