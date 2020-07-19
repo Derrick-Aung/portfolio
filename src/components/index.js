@@ -1,6 +1,6 @@
 export { default as AppNavbar } from "./AppNavbar/AppNavbar";
 export { default as Footer } from "./Footer/Footer";
-export { default as Home } from "./Home/Home";
+export { default as About } from "./About/About";
 export { default as Tag } from "./Tag/Tag";
 export { default as Documents } from "./Documents/Documents";
 export { default as Skills } from "./Skills/Skills";

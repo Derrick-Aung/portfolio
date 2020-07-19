@@ -3,7 +3,7 @@ import "./App.css";
 import {
     AppNavbar,
     Footer,
-    Home,
+    About,
     Documents,
     Portfolio,
     Skills,
@@ -21,11 +21,11 @@ function App() {
             <Router>
                 <AppNavbar />
                 <Switch>
-                    <Route exact path="/home" component={Home} />
-                    <Route exact path="/portfolio" component={Portfolio} />
+                    <Route exact path="/" component={Portfolio} />
+                    <Route exact path="/about" component={About} />
                     <Route exact path="/skills" component={Skills} />
                     {/* <Route exact path="/documents" component={Documents} /> */}
-                    <Redirect to="/home" />
+                    <Redirect to="/" />
                 </Switch>
                 <Footer />
             </Router>

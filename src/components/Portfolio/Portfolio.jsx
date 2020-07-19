@@ -4,10 +4,37 @@ import cx from "classnames";
 import { ProjectCard } from "../index";
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
+import { Helmet } from "react-helmet";
 
 const IMAGE_PATH = `${process.env.PUBLIC_URL}/images/`;
 
 const projects = [
+    {
+        title: "WatchWhat",
+        images: ["watchwhat1.JPG"],
+        tags: [
+            "Upcoming",
+            "React with Hooks",
+            "Redux Thunk",
+            "TMDB API",
+            "Youtube API",
+        ],
+        description:
+            "If you love movies you will love WatchWhat - a web interface to explore trending and upcoming movies with a slick interface with features to browse trailers and movie cast crews",
+    },
+    {
+        title: "An Engineer's Portfolio",
+        images: [
+            "engineer1.JPG",
+            "engineer2.JPG",
+            "engineer3.JPG",
+            "engineer4.JPG",
+        ],
+        tags: ["Javascript", "React Helmet", "Responsive Design"],
+        description:
+            "A personal website designed for a client to showcase his projects. The beauty is in its simplicity.",
+        link: "https://www.david-zwelin.xyz/",
+    },
     {
         title: "Mellowdy | Web App For Spotify",
         images: ["mellowdy1.png", "mellowdy2.png", "mellowdy3.png"],
@@ -82,6 +109,16 @@ export default function Portfolio() {
 
     return (
         <div className={styles.container}>
+            <Helmet>
+                <title>
+                    Derrick Aung | Full Stack Web Developer Portfolio - React,
+                    Node.js and more
+                </title>
+                <meta
+                    name="description"
+                    content="Derrick Aung is a current Monash Computer Science student based in Melbourne, VIC aspiring to be a full-stack web developer specializing in React, NodeJS and AWS. Welcome to my developer portfolio, a place where I showcase my coding projects."
+                />
+            </Helmet>
             <h3 className={cx(styles.portfolioTitle, "my-4")}>What I Do</h3>
             <p className={styles.portfolioIntro}>
                 To me websites are a form of art. It may not be a sculpture, a

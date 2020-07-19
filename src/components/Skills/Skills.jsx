@@ -1,10 +1,18 @@
 import React from "react";
 import styles from "./Skills.module.css";
 import { SkillComponent } from "../index";
+import { Helmet } from "react-helmet";
 
 export default function Skills() {
     return (
         <div className={styles.mainContainer}>
+            <Helmet>
+                <title>Derrick Aung | Skillset and Languages</title>
+                <meta
+                    name="description"
+                    content="Equipped with a diverse skillset, Derrick Aung is more than a web developer; he is a problem solver, a designer and most importantly a curious learner."
+                />
+            </Helmet>
             <div className={styles.container}>
                 <h3 className={styles.skillTitle}>Programming</h3>
                 <SkillComponent skillImg="reactjs.png" skillName="React" />
@@ -26,6 +34,7 @@ export default function Skills() {
                 <SkillComponent skillImg="css.png" skillName="CSS" />
                 <SkillComponent skillImg="python.png" skillName="Python" />
                 <SkillComponent skillImg="java.png" skillName="Java" />
+                <SkillComponent skillImg="sql.png" skillName="SQL" />
             </div>
             <div className={styles.container}>
                 <h3 className={styles.skillTitle}>Other Skills</h3>

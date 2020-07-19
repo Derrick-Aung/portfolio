@@ -32,13 +32,13 @@ const AppNavbar = (props) => {
                     >
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink className="nav-link" to="/home">
+                                <NavLink exact className="nav-link" to="/">
                                     <span>Home</span>
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" to="/portfolio">
-                                    <span>Portfolio</span>
+                                <NavLink className="nav-link" to="/about">
+                                    <span>About</span>
                                 </NavLink>
                             </NavItem>
                             <NavItem>

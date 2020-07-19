@@ -5,6 +5,7 @@ export default function Footer() {
     const EMAIL = "derrick.aungkhant@gmail.com";
     const PHONE = "+61405438577";
     const GITHUB = "https://github.com/Derrick-Aung/";
+    const LINEKDIN = "https://www.linkedin.com/in/aung-phone-khant-251a671b2/";
 
     useEffect(() => {
         const progressBar = document.getElementById("myBar");
@@ -46,8 +47,8 @@ export default function Footer() {
                 <a href={`tel:${PHONE}`}>
                     <i className="fas fa-phone fa-2x"></i>
                 </a>
-                <a href={"#"}>
-                    <i className="fab fa-codepen fa-2x"></i>
+                <a href={LINEKDIN} target="_blank">
+                    <i className="fab fa-linkedin fa-2x"></i>
                 </a>
             </div>
         </div>

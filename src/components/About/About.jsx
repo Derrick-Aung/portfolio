@@ -1,12 +1,23 @@
 import React from "react";
-import styles from "./Home.module.css";
-import { Tag } from "../";
+import styles from "./About.module.css";
+import { Tag } from "..";
+import { Helmet } from "react-helmet";
 import cx from "classnames";
 
-export default function Home() {
+export default function About() {
     // Home Page
     return (
         <div className={styles.padBottom}>
+            <Helmet>
+                <title>
+                    About Derrick Aung | Work Experience and Education - React,
+                    Node.js and more
+                </title>
+                <meta
+                    name="description"
+                    content="Derrick Aung is a full stack web developer from Myanmar, Burma specializing in React, NodeJS and AWS. Trained in the presitigious Group of Eight Monash University, he is ready to tackle any project that comes his way."
+                />
+            </Helmet>
             <div className={styles.homeContainer}>
                 <div className={styles.container}>
                     <h3 className={cx(styles.homeTitle, "text-left", "pl-3")}>
@@ -31,9 +42,9 @@ export default function Home() {
                         experience
                         <br />
                         <br />
-                        Dont be a stranger, shoot me a hi or an email with an
-                        explanation of Dijkstra's correctness in extensive
-                        detail, whatever works for you
+                        Dont be a stranger, shoot me a hi or an email explaining
+                        why Bubblesort is superior to Quicksort or whatever you
+                        want to talk about
                     </div>
                 </div>
                 <div className={styles.portraitContainer}>
