@@ -63,7 +63,7 @@ export default function About() {
                             <h4>Aug 2019 – Nov 2019</h4>
                         </li>
                         <li>
-                            <h5>Frontend Developer at ConceptX Myanmar</h5>
+                            <h5>Web Developer Intern at ConceptX Myanmar</h5>
                         </li>
                         <li>
                             <a href="https://www.conceptxmm.com/">
