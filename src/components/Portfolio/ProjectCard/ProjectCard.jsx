@@ -16,7 +16,11 @@ export default function ProjectCard(props) {
                 src={`${IMAGE_PATH}${props.images[0]}`}
                 alt=""
             />
-            <a href={props.link ? props.link : null} target="_blank">
+            <a
+                href={props.link ? props.link : null}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 <div className={styles.projectSubContainer}>
                     <h3>{props.title}</h3>
                     <div>{tags}</div>

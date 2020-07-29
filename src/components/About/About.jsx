@@ -15,7 +15,7 @@ export default function About() {
                 </title>
                 <meta
                     name="description"
-                    content="Derrick Aung is a full stack web developer from Myanmar, Burma specializing in React, NodeJS and AWS. Trained in the presitigious Group of Eight Monash University, he is ready to tackle any project that comes his way."
+                    content="Derrick Aung (Aung Phone Khant) is a full stack web developer from Myanmar, Burma specializing in React, NodeJS and AWS. Trained in the presitigious Group of Eight Monash University, he is ready to tackle any project that comes his way."
                 />
             </Helmet>
             <div className={styles.homeContainer}>
@@ -44,7 +44,7 @@ export default function About() {
                         <br />
                         Dont be a stranger, shoot me a hi or an email explaining
                         why Bubblesort is superior to Quicksort or whatever you
-                        want to talk about
+                        want to talk about =)
                     </div>
                 </div>
                 <div className={styles.portraitContainer}>
@@ -101,7 +101,11 @@ export default function About() {
                             <h6>+ Bachelor of Computer Science</h6>
                         </li>
                         <li>
-                            <h6>+ 83.33 Weighted Average Mark</h6>
+                            <h6>
+                                +{" "}
+                                <span style={{ color: "#04ca83" }}>83.94</span>{" "}
+                                Weighted Average Mark
+                            </h6>
                         </li>
                         <li>
                             <h6>+ Higher Achiever Award</h6>
@@ -119,7 +123,9 @@ export default function About() {
                         </li>
                         <li>
                             <h6>
-                                + Graduated with 90.38 Weighted Average Mark
+                                + Graduated with{" "}
+                                <span style={{ color: "#04ca83" }}>90.38</span>{" "}
+                                Weighted Average Mark
                             </h6>
                         </li>
                     </ul>

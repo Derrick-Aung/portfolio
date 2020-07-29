@@ -11,16 +11,11 @@ const IMAGE_PATH = `${process.env.PUBLIC_URL}/images/`;
 const projects = [
     {
         title: "WatchWhat",
-        images: ["watchwhat1.JPG"],
-        tags: [
-            "Upcoming",
-            "React with Hooks",
-            "Redux Thunk",
-            "TMDB API",
-            "Youtube API",
-        ],
+        images: ["watch-what.JPG", "watch-what2.JPG", "watch-what3.JPG"],
+        tags: ["React with Hooks", "Redux Thunk", "TMDB API", "Youtube API"],
         description:
             "If you love movies you will love WatchWhat - a web interface to explore trending and upcoming movies with a slick interface with features to browse trailers and movie cast crews",
+        link: "https://watchwhat.derrick-aung.xyz/",
     },
     {
         title: "An Engineer's Portfolio",
@@ -116,7 +111,7 @@ export default function Portfolio() {
                 </title>
                 <meta
                     name="description"
-                    content="Derrick Aung is a current Monash Computer Science student based in Melbourne, VIC aspiring to be a full-stack web developer specializing in React, NodeJS and AWS. Welcome to my developer portfolio, a place where I showcase my coding projects."
+                    content="Derrick Aung (Aung Phone Khant) is a current Monash Computer Science student based in Melbourne, VIC aspiring to be a full-stack web developer specializing in React, NodeJS and AWS. Welcome to my developer portfolio, a place where I showcase my coding projects."
                 />
             </Helmet>
             <h3 className={cx(styles.portfolioTitle, "my-4")}>What I Do</h3>

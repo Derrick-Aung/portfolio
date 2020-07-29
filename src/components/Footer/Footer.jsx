@@ -5,7 +5,7 @@ export default function Footer() {
     const EMAIL = "derrick.aungkhant@gmail.com";
     const PHONE = "+61405438577";
     const GITHUB = "https://github.com/Derrick-Aung/";
-    const LINEKDIN = "https://www.linkedin.com/in/aung-phone-khant-251a671b2/";
+    const LINKEDIN = "https://www.linkedin.com/in/aung-phone-khant-251a671b2/";
 
     useEffect(() => {
         const progressBar = document.getElementById("myBar");
@@ -41,13 +41,13 @@ export default function Footer() {
                 <a href={`mailto:${EMAIL}`}>
                     <i className="fas fa-envelope fa-2x"></i>
                 </a>
-                <a href={GITHUB} target="_blank">
+                <a href={GITHUB} target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-github fa-2x"></i>
                 </a>
                 <a href={`tel:${PHONE}`}>
                     <i className="fas fa-phone fa-2x"></i>
                 </a>
-                <a href={LINEKDIN} target="_blank">
+                <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin fa-2x"></i>
                 </a>
             </div>
