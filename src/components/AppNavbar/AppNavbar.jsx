@@ -24,32 +24,34 @@ const AppNavbar = (props) => {
                     <NavbarBrand className="mr-auto ml-3" href="/">
                         <span id={styles.name}>Aung Khant | </span> Derrick
                     </NavbarBrand>
-                    <NavbarToggler onClick={toggle} />
+                    <NavbarToggler
+                        style={{ float: "right" }}
+                        onClick={toggle}
+                    />
+                    <Collapse
+                        isOpen={isOpen}
+                        className={styles.collapseBar}
+                        navbar
+                    >
+                        <Nav className="ml-auto" navbar>
+                            <NavItem>
+                                <NavLink exact className="nav-link" to="/">
+                                    <span>Home</span>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="/about">
+                                    <span>About</span>
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to="/skills">
+                                    <span>Skills</span>
+                                </NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Collapse>
                 </div>
-                <Collapse isOpen={isOpen} className={styles.collapseBar} navbar>
-                    <Nav className="m-auto" navbar>
-                        <NavItem>
-                            <NavLink exact className="nav-link" to="/">
-                                <span>Home</span>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/about">
-                                <span>About</span>
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link" to="/skills">
-                                <span>Skills</span>
-                            </NavLink>
-                        </NavItem>
-                        {/* <NavItem>
-                            <NavLink className="nav-link" to="/documents">
-                                <span>Documents</span>
-                            </NavLink>
-                        </NavItem> */}
-                    </Nav>
-                </Collapse>
             </Navbar>
         </div>
     );
