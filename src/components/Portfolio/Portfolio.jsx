@@ -12,30 +12,24 @@ const projects = [
 	{
 		title: "WatchWhat",
 		images: ["watch-what.JPG", "watch-what2.JPG", "watch-what3.JPG"],
-		tags: [
-			"React with Hooks",
-			"Redux Thunk",
-			"TMDB API",
-			"Youtube API",
-			"Ongoing",
-		],
+		tags: ["React with Hooks", "Node", "Express", "MongoDB"],
 		description:
 			"If you love movies you will love WatchWhat - a web interface to explore trending and upcoming movies with a slick interface with features to browse trailers and movie cast crews",
 		link: "https://watchwhat.derrick-aung.xyz/",
 	},
-	// {
-	//     title: "An Engineer's Portfolio",
-	//     images: [
-	//         "engineer1.JPG",
-	//         "engineer2.JPG",
-	//         "engineer3.JPG",
-	//         "engineer4.JPG",
-	//     ],
-	//     tags: ["Javascript", "React Helmet", "Responsive Design"],
-	//     description:
-	//         "A personal website designed for a client to showcase his projects. The beauty is in its simplicity.",
-	//     link: "https://www.david-zwelin.xyz/",
-	// },
+	{
+		title: "An Engineer's Portfolio",
+		images: [
+			"engineer1.JPG",
+			"engineer2.JPG",
+			"engineer3.JPG",
+			"engineer4.JPG",
+		],
+		tags: ["Javascript", "React Helmet", "Responsive Design"],
+		description:
+			"A personal website designed for a client to showcase his projects. The beauty is in its simplicity.",
+		link: "https://www.david-zwelin.xyz/",
+	},
 	{
 		title: "Mellowdy | Web App For Spotify",
 		images: ["mellowdy1.png", "mellowdy2.png", "mellowdy3.png"],
